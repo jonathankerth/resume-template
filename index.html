@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Your Resume</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./resume.css" />
+	</head>
+	<body class="bg-white text-black p-2">
+		<button
+			id="themeToggle"
+			class="bg-gray-800 text-white rounded-full w-10 h-10 absolute top-5 right-5 focus:outline-none"
+		>
+			🌙
+		</button>
+		<a
+			href="#"
+			class="bg-blue-500 text-white rounded-lg p-2 mr-4 absolute top-5 flex items-center justify-center hover:bg-blue-700 focus:outline-none hide-on-print"
+			download="YourName_Resume.pdf"
+		>
+			<span class="text-xsm font-semibold">Download</span>
+		</a>
+
+		<div class="container mx-auto">
+			<div class="border border-gray-400 rounded p-4">
+				<div class="flex items-center px-2 py-0 inline-block font-semibold">
+					<!-- Menu Icon: Three horizontal lines -->
+					<div
+						class="flex items-center mb-2 px-2 py-0 inline-block font-semibold flex-col space-y-1"
+					>
+						<span class="block" style="line-height: 0.1">—</span>
+						<span class="block" style="line-height: 0.1">—</span>
+						<span class="block" style="line-height: 0.1">—</span>
+					</div>
+					README.md
+				</div>
+
+				<div class="border-t border-gray-400 pt-4">
+					<div class="text-xl font-semibold text-center mb-4">Your Name</div>
+
+					<div class="text-center">
+						<!-- Add this div for centering -->
+						<span class="w-full sm:w-auto sm:mb-0">
+							City, State | (123) 456-7890 |
+							<a
+								class="text-blue-500 hover:underline"
+								href="mailto:your.email@example.com"
+								>Your.Email@example.com</a
+							>
+							|
+							<a
+								class="text-blue-500 hover:underline"
+								href="https://www.yourwebsite.com"
+								target="_blank"
+								rel="noopener noreferrer"
+								>YourWebsite.com</a
+							>
+							|
+							<a
+								class="text-blue-500 hover:underline"
+								href="https://linkedin.com/in/yourlinkedin"
+								target="_blank"
+								rel="noopener noreferrer"
+								>LinkedIn</a
+							>
+							|
+							<a
+								class="text-blue-500 hover:underline"
+								href="https://github.com/yourgithub"
+								target="_blank"
+								rel="noopener noreferrer"
+								>GitHub</a
+							>
+						</span>
+					</div>
+
+					<h2 class="text-lg font-semibold mb-2 section-heading">Summary</h2>
+					<p class="text-xsm">
+						Add your summary here. Briefly describe your background, skills, and
+						experience.
+					</p>
+
+					<h2 class="text-lg font-semibold mb-2 section-heading">
+						Professional Experience
+					</h2>
+					<div class="work-experience-item">
+						<h3 class="text-base">Job Title | Company Name</h3>
+						<div class="text-xsm">Month Year - Month Year</div>
+						<ul class="pl-5 text-xsm work-experience-description list-disc">
+							<li>
+								Add details of your responsibilities and achievements in this
+								role.
+							</li>
+							<li>You can list your accomplishments here.</li>
+						</ul>
+					</div>
+
+					<!-- Add more work experience items as needed -->
+
+					<h2 class="text-lg font-semibold section-heading">Education</h2>
+					<div class="flex">
+						<!-- Add flex -->
+						<div class="ml-2">
+							<!-- Set width to 50% for equal spacing -->
+							<h4 class="text-md"><strong>Degree Name</strong></h4>
+							<ul class="text-md education-details">
+								<li><strong>University Name, Location</strong></li>
+								<li>Month Year - Month Year</li>
+							</ul>
+						</div>
+						<div class="ml-8">
+							<!-- Set width to 50% for equal spacing -->
+							<h4 class="text-md"><strong>Another Degree Name</strong></h4>
+							<ul class="text-md education-details">
+								<li><strong>University Name, Location</strong></li>
+								<li>Month Year - Month Year</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<h2 class="text-lg font-semibold mb-2 section-heading">
+					Skills/Technologies
+				</h2>
+				<p class="text-xsm mb-2">Your skills here</p>
+
+				<!-- Footer section -->
+				<div class="text-center text-xsm mt-4">
+					<p>
+						Resume Template built by
+						<a
+							href="https://www.jonathankerth.com"
+							class="text-blue-500 hover:underline"
+							>Jonathan Gallardo-Kerth</a
+						>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			document
+				.getElementById("themeToggle")
+				.addEventListener("click", function () {
+					let currentTheme = document.body.getAttribute("data-theme");
+					if (currentTheme === "dark") {
+						document.body.setAttribute("data-theme", "light");
+						document.body.className = "bg-white text-black p-6";
+					} else {
+						document.body.setAttribute("data-theme", "dark");
+						document.body.className = "bg-black text-white p-6";
+					}
+				});
+		</script>
+	</body>
+</html>

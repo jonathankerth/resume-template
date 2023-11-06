@@ -1,0 +1,76 @@
+body {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "Arial", sans-serif;
+	background-color: #ffffff;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+/* Define dark mode styles */
+[data-theme="dark"] body {
+	background-color: #333333;
+	color: #ffffff;
+}
+/* Define dark mode styles for main content */
+[data-theme="dark"] .main-content {
+	background-color: #1a1a1a;
+	color: #ffffff;
+}
+/* Define dark mode styles for list items */
+[data-theme="dark"] ul li {
+	color: #ffffff;
+}
+
+.main-content {
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 6px;
+	border-left: 2px solid #333;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: background-color 0.3s, color 0.3s;
+}
+
+/* Heading style for each section */
+.section-heading {
+	font-size: 14px; /* Increased font size for section headings */
+	margin-top: 12px; /* Reduced margin for section headings */
+	margin-bottom: 6px; /* Reduced margin for section headings */
+	font-weight: bold;
+}
+
+h2 {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 2px;
+}
+
+a {
+	color: #0077cc;
+	text-decoration: none;
+	transition: text-decoration 0.3s;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#themeToggle {
+	display: true;
+}
+
+/* Dark mode styles for the menu icon */
+[data-theme="dark"] .menu-icon-line {
+	background-color: #fff;
+}
+
+/* Hide the theme toggle button when printing */
+@media print {
+	#themeToggle {
+		display: none !important;
+	}
+	.hide-on-print {
+		display: none;
+	}
+}
