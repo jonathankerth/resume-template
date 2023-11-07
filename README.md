@@ -1,4 +1,4 @@
-# Resume Template for Software Engineers Created by Jonathan Gallardo-Kerth
+# Resume Template Created by Jonathan Gallardo-Kerth
 
 Create your resume with HTML, CSS, and JavaScript!
 
