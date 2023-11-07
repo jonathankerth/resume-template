@@ -50,16 +50,12 @@ If you find this template useful, consider supporting the project by:
 
 ## Contact Me
 
-You can contact me through:
+You can reach me through:
 
 [LinkedIn](https://www.linkedin.com/in/jonathankerth/) or [Email](mailto:jonathanpkerth@gmail.com)
 
 ## Contributing
 
 We welcome contributions from the community. If you have ideas to enhance this template or want to fix issues, please submit a pull request.
-
-## Contact
-
-If you have any questions or need assistance, you can reach out to Jonathan Gallardo-Kerth at Jonathanpkerth@gmail.com .
 
 Happy coding and resume building!
