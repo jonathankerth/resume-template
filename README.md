@@ -1,4 +1,4 @@
-# Resume Template for Software Engineers
+# Resume Template for Software Engineers Created by Jonathan Gallardo-Kerth
 
 Create your resume with HTML, CSS, and JavaScript!
 
@@ -47,6 +47,14 @@ If you find this template useful, consider supporting the project by:
 - Starring this repository 🌟
 - Sharing it with your fellow software engineers
 - Contributing to the project if you have improvements to suggest
+
+## Contact Me
+
+You can contact me through the following channels:
+
+- GitHub: [Your GitHub Profile](https://github.com/your-github-username)
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-username)
+- Email: [Your Email Address](mailto:your-email@example.com)
 
 ## Contributing
 
