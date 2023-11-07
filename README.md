@@ -50,11 +50,9 @@ If you find this template useful, consider supporting the project by:
 
 ## Contact Me
 
-You can contact me through the following channels:
+You can contact me through:
 
-- [GitHub](https://github.com/jonathankerth)
-- [LinkedIn](https://www.linkedin.com/in/jonathankerth/)
-- [Email](mailto:jonathanpkerth@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/jonathankerth/) or [Email](mailto:jonathanpkerth@gmail.com)
 
 ## Contributing
 
