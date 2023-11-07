@@ -52,9 +52,9 @@ If you find this template useful, consider supporting the project by:
 
 You can contact me through the following channels:
 
-- GitHub: [Your GitHub Profile](https://github.com/your-github-username)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-username)
-- Email: [Your Email Address](mailto:your-email@example.com)
+- [GitHub](https://github.com/jonathankerth)
+- [LinkedIn](https://www.linkedin.com/in/jonathankerth/)
+- [Email](mailto:jonathanpkerth@gmail.com)
 
 ## Contributing
 
