@@ -27,8 +27,8 @@
 
 		<div class="container mx-auto">
 			<div class="border border-gray-400 rounded p-4">
+				<!-- Header Section -->
 				<div class="flex items-center px-2 py-0 inline-block font-semibold">
-					<!-- Menu Icon: Three horizontal lines -->
 					<div
 						class="flex items-center mb-2 px-2 py-0 inline-block font-semibold flex-col space-y-1"
 					>
@@ -39,104 +39,85 @@
 					README.md
 				</div>
 
+				<!-- Personal Information Section -->
 				<div class="border-t border-gray-400 pt-4">
 					<div class="text-xl font-semibold text-center mb-4">Your Name</div>
-
 					<div class="text-center">
-						<!-- Add this div for centering -->
 						<span class="w-full sm:w-auto sm:mb-0">
 							City, State | (123) 456-7890 |
-							<a
-								class="text-blue-500 hover:underline"
-								href="mailto:your.email@example.com"
-								>Your.Email@example.com</a
-							>
-							|
-							<a
-								class="text-blue-500 hover:underline"
-								href="https://www.yourwebsite.com"
-								target="_blank"
-								rel="noopener noreferrer"
-								>YourWebsite.com</a
-							>
-							|
-							<a
-								class="text-blue-500 hover:underline"
-								href="https://linkedin.com/in/yourlinkedin"
-								target="_blank"
-								rel="noopener noreferrer"
-								>LinkedIn</a
-							>
-							|
-							<a
-								class="text-blue-500 hover:underline"
-								href="https://github.com/yourgithub"
-								target="_blank"
-								rel="noopener noreferrer"
-								>GitHub</a
-							>
+							<a href="mailto:your.email@example.com">Your.Email@example.com</a>
+							| <a href="https://www.yourwebsite.com">YourWebsite.com</a> |
+							<a href="https://linkedin.com/in/yourlinkedin">LinkedIn</a> |
+							<a href="https://github.com/yourgithub">GitHub</a>
 						</span>
 					</div>
+				</div>
 
-					<h2 class="text-lg font-semibold mb-2 section-heading">Summary</h2>
+				<!-- Summary Section -->
+				<h2 class="text-lg font-semibold mb-2 mt-4 section-heading">Summary</h2>
+				<p class="text-xsm">
+					Add your summary here. Briefly describe your background, skills, and
+					experience.
+				</p>
+
+				<!-- Professional Experience Section -->
+				<h2 class="text-lg font-semibold mb-2 mt-4 section-heading">
+					Professional Experience
+				</h2>
+				<div class="work-experience-item">
+					<h3 class="text-base">Job Title | Company Name</h3>
+					<div class="text-xsm">Month Year - Month Year</div>
+					<ul class="pl-5 text-xsm work-experience-description list-disc">
+						<li>
+							Add details of your responsibilities and achievements in this
+							role.
+						</li>
+						<li>You can list your accomplishments here.</li>
+					</ul>
+				</div>
+				<!-- Repeat for more work experience items -->
+				<!-- Projects Section -->
+				<h2 class="text-lg font-semibold mb-2 mt-4 section-heading">
+					Projects
+				</h2>
+				<div class="project">
+					<h3 class="text-base">Project Name</h3>
 					<p class="text-xsm">
-						Add your summary here. Briefly describe your background, skills, and
-						experience.
+						Brief description of the project. Technologies used: Tech1, Tech2.
 					</p>
+				</div>
+				<!-- Repeat for more projects -->
 
-					<h2 class="text-lg font-semibold mb-2 section-heading">
-						Professional Experience
-					</h2>
-					<div class="work-experience-item">
-						<h3 class="text-base">Job Title | Company Name</h3>
-						<div class="text-xsm">Month Year - Month Year</div>
-						<ul class="pl-5 text-xsm work-experience-description list-disc">
-							<li>
-								Add details of your responsibilities and achievements in this
-								role.
-							</li>
-							<li>You can list your accomplishments here.</li>
+				<!-- Education Section -->
+				<h2 class="text-lg font-semibold mb-2 mt-4 section-heading">
+					Education
+				</h2>
+				<div class="flex">
+					<div class="ml-2">
+						<h4 class="text-md"><strong>Degree Name</strong></h4>
+						<ul class="text-md education-details">
+							<li><strong>University Name, Location</strong></li>
+							<li>Month Year - Month Year</li>
 						</ul>
 					</div>
-
-					<!-- Add more work experience items as needed -->
-
-					<h2 class="text-lg font-semibold section-heading">Education</h2>
-					<div class="flex">
-						<!-- Add flex -->
-						<div class="ml-2">
-							<!-- Set width to 50% for equal spacing -->
-							<h4 class="text-md"><strong>Degree Name</strong></h4>
-							<ul class="text-md education-details">
-								<li><strong>University Name, Location</strong></li>
-								<li>Month Year - Month Year</li>
-							</ul>
-						</div>
-						<div class="ml-8">
-							<!-- Set width to 50% for equal spacing -->
-							<h4 class="text-md"><strong>Another Degree Name</strong></h4>
-							<ul class="text-md education-details">
-								<li><strong>University Name, Location</strong></li>
-								<li>Month Year - Month Year</li>
-							</ul>
-						</div>
+					<div class="ml-8">
+						<h4 class="text-md"><strong>Another Degree Name</strong></h4>
+						<ul class="text-md education-details">
+							<li><strong>University Name, Location</strong></li>
+							<li>Month Year - Month Year</li>
+						</ul>
 					</div>
 				</div>
-				<h2 class="text-lg font-semibold mb-2 section-heading">
+
+				<!-- Skills Section -->
+				<h2 class="text-lg font-semibold mb-2 mt-4 section-heading">
 					Skills/Technologies
 				</h2>
-				<p class="text-xsm mb-2">Your skills here</p>
+				<p class="text-xsm mb-2">List your skills here</p>
 
-				<!-- Footer section -->
+				<!-- Footer Section -->
 				<div class="text-center text-xsm mt-4">
-					<p>
-						Resume Template built by
-						<a
-							href="https://www.jonathankerth.com"
-							class="text-blue-500 hover:underline"
-							>Jonathan Gallardo-Kerth</a
-						>
-					</p>
+					<p>Resume Template built by Jonathan Gallardo-Kerth</p>
 				</div>
 			</div>
 		</div>
@@ -146,13 +127,14 @@
 				.getElementById("themeToggle")
 				.addEventListener("click", function () {
 					let currentTheme = document.body.getAttribute("data-theme");
-					if (currentTheme === "dark") {
-						document.body.setAttribute("data-theme", "light");
-						document.body.className = "bg-white text-black p-6";
-					} else {
-						document.body.setAttribute("data-theme", "dark");
-						document.body.className = "bg-black text-white p-6";
-					}
+					document.body.setAttribute(
+						"data-theme",
+						currentTheme === "dark" ? "light" : "dark"
+					);
+					document.body.className =
+						currentTheme === "dark"
+							? "bg-white text-black p-6"
+							: "bg-black text-white p-6";
 				});
 		</script>
 	</body>
