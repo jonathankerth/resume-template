@@ -1,10 +1,10 @@
 # Resume Template Created by Jonathan Gallardo-Kerth
 
-Create your resume that looks like a GitHub README.md with HTML, CSS, and JavaScript!
+Create your resume that looks like a GitHub README.md with HTML, CSS, including the popular Tailwind CSS framework and JavaScript!
 
 ## Introduction
 
-This resume template allows software engineers to build their resumes that look like a GitHub README.md using web technologies like HTML, CSS, and JavaScript. Instead of using traditional resume software, you can craft a unique and interactive resume that showcases your skills and experience.
+This resume template allows software engineers to build their resumes that look like a GitHub README.md. Instead of using traditional resume software, you can craft a unique and interactive resume that showcases your skills and experience.
 
 ## Features
 
