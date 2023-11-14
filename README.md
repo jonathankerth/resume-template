@@ -1,6 +1,6 @@
 # Resume Template Created by Jonathan Gallardo-Kerth
 
-Create your resume that looks like a GitHub README.md with HTML, CSS, and JavaScript!
+Create your resume that looks like a GitHub README.md with HTML, CSS, including the popular Tailwind CSS framework and JavaScript!
 
 ## Introduction
 
