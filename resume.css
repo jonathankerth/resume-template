@@ -11,7 +11,7 @@ body {
 
 /* Define dark mode styles */
 [data-theme="dark"] body {
-	background-color: #333333;
+	background-color: #000000;
 	color: #ffffff;
 }
 /* Define dark mode styles for main content */
@@ -54,10 +54,6 @@ a {
 
 a:hover {
 	text-decoration: underline;
-}
-
-#themeToggle {
-	display: true;
 }
 
 /* Dark mode styles for the menu icon */
