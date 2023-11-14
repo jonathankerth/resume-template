@@ -64,6 +64,6 @@ You can reach me through:
 
 ## Contributing
 
-We welcome contributions from the community. If you have ideas to enhance this template or want to fix issues, please submit a pull request.
+I welcome contributions from the community. If you have ideas to enhance this template or want to fix issues, please submit a pull request.
 
 Happy coding and resume building!
