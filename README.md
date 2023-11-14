@@ -1,6 +1,6 @@
 # Resume Template Created by Jonathan Gallardo-Kerth
 
-Create your resume that looks like a GitHub README.md with HTML, CSS, and JavaScript! 
+Create your resume that looks like a GitHub README.md with HTML, CSS, and JavaScript!
 
 ## Introduction
 
@@ -8,7 +8,7 @@ This resume template allows software engineers to build their resumes that look 
 
 ## Features
 
-- Crafted with ❤️ by Jonathan Gallard-Kerth
+- Crafted with ❤️ by Jonathan Gallardo-Kerth
 - Use HTML, CSS, and JavaScript to create your resume
 - Customizable and unique design
 - Showcase your skills, projects, and experience in a creative way
@@ -23,10 +23,12 @@ To get started with this resume template, follow these steps:
 2. Customize the HTML, CSS, and JavaScript to add your information and style.
 
 3. If your repository doesn't already have a `gh-pages` branch for deployment, create one:
+
    - Go to the "Branches" tab on GitHub.
    - Type "gh-pages" into the branch name input field and click "Create branch."
 
 4. Deploy your resume using GitHub Pages:
+
    - Go to the "Settings" tab of your forked repository.
    - Scroll down to the "GitHub Pages" section.
    - Under "Source," select "gh-pages" as the branch to use for GitHub Pages.
@@ -34,7 +36,13 @@ To get started with this resume template, follow these steps:
 
 5. Access your deployed resume at `https://<your-github-username>.github.io/<repository-name>`.
 
-6. Share your unique resume with others in the software engineering community.
+6. To get a PDF version of your resume, simply open the web version and use the Print to PDF feature of your web browser:
+
+   - Open your resume in the browser.
+   - Use the print option in your browser (often found in the menu or by pressing CTRL + P or CMD + P on your keyboard).
+   - In the print dialog, select "Save as PDF" or similar option as the destination and save the file.
+
+7. Share your unique resume with others in the software engineering community.
 
 ## License
 
